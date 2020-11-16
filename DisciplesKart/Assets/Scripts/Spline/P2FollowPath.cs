@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AIFollowPath : MonoBehaviour
+public class P2_FollowPath : MonoBehaviour
 {
     public enum MovementType
     {
@@ -14,17 +14,17 @@ public class AIFollowPath : MonoBehaviour
     public MovementPath MyPath;
 
     // controller variables
-    public player1 player_1;
+    public player2 player_2;
     // ---------------------------
-        
+
     public float MaxDistanceToGoal = 0.1f;
     public Transform target;
 
     public IEnumerator<Transform> pointInPath;
 
-	public void Start ()
+    public void Start()
     {
-		if(MyPath == null)
+        if (MyPath == null)
         {
             Debug.LogError("No Path Set", gameObject);
             return;
@@ -40,12 +40,12 @@ public class AIFollowPath : MonoBehaviour
         }
 
         transform.position = pointInPath.Current.position;
-	}
+    }
 
     void Update()
     {
-        
-        if (player_1.is_moving == true)
+
+        if (player_2.is_moving == true)
         {
             if (pointInPath == null || pointInPath.Current == null)
             {
@@ -54,11 +54,11 @@ public class AIFollowPath : MonoBehaviour
 
             if (Type == MovementType.MoveTowards)
             {
-                transform.position = Vector3.MoveTowards(transform.position, pointInPath.Current.position, Time.deltaTime * player_1.current_speed);
+                transform.position = Vector3.MoveTowards(transform.position, pointInPath.Current.position, Time.deltaTime * player_2.current_speed);
             }
             else if (Type == MovementType.LerpTowards)
             {
-                transform.position = Vector3.Lerp(transform.position, pointInPath.Current.position, Time.deltaTime * player_1.current_speed);
+                transform.position = Vector3.Lerp(transform.position, pointInPath.Current.position, Time.deltaTime * player_2.current_speed);
             }
 
             var distanceSquared = (transform.position - pointInPath.Current.position).sqrMagnitude;
@@ -69,10 +69,10 @@ public class AIFollowPath : MonoBehaviour
         }
 
         //Rotation Control
-        float rotationSpeed = player_1.current_speed / 10;
+        float rotationSpeed = player_2.current_speed / 10;
         Vector3 targetRotation = target.position - MyPath.PathSequence[MyPath.movingTo].position;
 
         float singleStep = rotationSpeed * Time.deltaTime;
-        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetRotation), player_1.current_speed * Time.deltaTime);
+        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetRotation), player_2.current_speed * Time.deltaTime);
     }
 }

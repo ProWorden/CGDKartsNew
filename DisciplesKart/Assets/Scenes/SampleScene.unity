@@ -1835,7 +1835,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1006701353, guid: 28ec6ecb7384b6a468295d78127a0056, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 28ec6ecb7384b6a468295d78127a0056, type: 3}
 --- !u!1 &57701596
 GameObject:
@@ -2323,6 +2324,7 @@ GameObject:
   - component: {fileID: 74048270}
   - component: {fileID: 74048273}
   - component: {fileID: 74048272}
+  - component: {fileID: 74048271}
   m_Layer: 5
   m_Name: needle
   m_TagString: Untagged
@@ -2349,6 +2351,22 @@ RectTransform:
   m_AnchoredPosition: {x: 402, y: 109}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &74048271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74048269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff83b4c4f2907fe408bb01c72e2539bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kart: {fileID: 819786092}
+  player2_script: {fileID: 819786093}
+  needle: {fileID: 74048269}
+  speed: 0
 --- !u!114 &74048272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25691,6 +25709,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817855519}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &819786092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 220439049464178129, guid: 28ec6ecb7384b6a468295d78127a0056,
+    type: 3}
+  m_PrefabInstance: {fileID: 55390834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &819786093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819786092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368fb86313536064a8f5dccb991d6bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  current_speed: 0
+  max_speed: 20
+  acceleration: 5
+  brake_speed: 10
+  is_moving: 0
+  is_braking: 0
+--- !u!4 &819786094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5333665909642692281, guid: 28ec6ecb7384b6a468295d78127a0056,
+    type: 3}
+  m_PrefabInstance: {fileID: 55390834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &819786095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819786092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29371a2a5a317824fa168da088ab74e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 0
+  MyPath: {fileID: 1202701042}
+  player_2: {fileID: 819786093}
+  MaxDistanceToGoal: 0.1
+  target: {fileID: 819786094}
 --- !u!1 &821961126
 GameObject:
   m_ObjectHideFlags: 0
@@ -28828,14 +28893,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: 0
   MyPath: {fileID: 797161640}
+  player_1: {fileID: 943308934}
+  MaxDistanceToGoal: 0.1
+  target: {fileID: 1006701352}
+--- !u!114 &943308934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943308932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489bd6e39febdcc499a8afc468620ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   current_speed: 0
   max_speed: 20
   acceleration: 5
   brake_speed: 10
   is_moving: 0
   is_braking: 0
-  MaxDistanceToGoal: 0.1
-  target: {fileID: 1006701352}
 --- !u!1 &946287758
 GameObject:
   m_ObjectHideFlags: 0
@@ -37248,7 +37326,7 @@ MonoBehaviour:
   - {fileID: 1660451354}
   - {fileID: 853599661}
   - {fileID: 284955159}
-  S2: {fileID: 0}
+  S2: {fileID: 1048445822}
   S3: {fileID: 0}
   S4: {fileID: 0}
 --- !u!1 &1207345931
@@ -54356,7 +54434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kart: {fileID: 943308932}
-  f_path: {fileID: 943308933}
+  player1_script: {fileID: 943308934}
   needle: {fileID: 1726242730}
   speed: 0
 --- !u!114 &1726242733
