@@ -14,16 +14,22 @@ public class MovementPath : MonoBehaviour
     public int movementDirection = 1;
     public int movingTo = 0;
     public Transform[] PathSequence;
-    public MovementPath S2;
-    public MovementPath S3;
-    public MovementPath S4;
+
+    public MovementPath[] LeftPaths;
+    public MovementPath[] RightPaths;
+    public MovementPath[] SharedPaths;
+
+
+
+
+
 
 
     private int PATH = 2;
 
     public void OnDrawGizmos()
     {
-        if(PathSequence == null || PathSequence.Length < 2)
+        if (PathSequence == null || PathSequence.Length < 2)
         {
             return;
         }
@@ -33,7 +39,7 @@ public class MovementPath : MonoBehaviour
             Gizmos.DrawLine(PathSequence[i - 1].position, PathSequence[i].position);
         }
 
-        if(PathType == PathTypes.loop)
+        if (PathType == PathTypes.loop)
         {
             Gizmos.DrawLine(PathSequence[0].position, PathSequence[PathSequence.Length - 1].position);
         }
@@ -50,7 +56,7 @@ public class MovementPath : MonoBehaviour
         {
             yield return PathSequence[movingTo];
 
-            if(PathSequence.Length == 1)
+            if (PathSequence.Length == 1)
             {
                 continue;
             }
@@ -63,29 +69,14 @@ public class MovementPath : MonoBehaviour
                 }
                 else if (movingTo >= PathSequence.Length - 1)
                 {
-                    movingTo = 0;
-                    if (PATH == 2)
-                    {
-                        PathSequence = S2.PathSequence;
-                    }
-                    if (PATH == 3)
-                    {
-                        PathSequence = S3.PathSequence;
-                    }
-                    if (PATH == 4)
-                    {
-                        PathSequence = S4.PathSequence;
-                    }
+                    NextSpline();
 
-
-                    PATH++;
                 }
             }
 
             movingTo = movingTo + movementDirection;
 
-
-            if(PathType == PathTypes.loop)
+            if (PathType == PathTypes.loop)
             {
                 if (movingTo >= PathSequence.Length)
                 {
@@ -99,7 +90,33 @@ public class MovementPath : MonoBehaviour
         }
     }
 
-	void Update () {
-		
-	}
+    void NextSpline()
+    {
+        movingTo = 0;
+        if (PATH == 2)
+        {
+            //PathSequence = S2.PathSequence;
+        }
+        if (PATH == 3)
+        {
+            //PathSequence = S3.PathSequence;
+        }
+        if (PATH == 4)
+        {
+            //PathSequence = S4.PathSequence;
+        }
+
+
+        PATH++;
+    }
+
+
+
+
+
+
+    void Update()
+    {
+
+    }
 }

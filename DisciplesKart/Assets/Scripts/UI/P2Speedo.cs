@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Speedo : MonoBehaviour
+public class P2Speedo : MonoBehaviour
 {
     public GameObject kart;
-    public player1 player1_script;
+    public player2 player2_script;
 
     public GameObject needle;
 
@@ -17,8 +17,8 @@ public class Speedo : MonoBehaviour
 
     private void FixedUpdate()
     {
-        speed = player1_script.current_speed;
-        player1_script.current_speed = speed;
+        speed = player2_script.current_speed;
+        player2_script.current_speed = speed;
 
         GetSpeedRot();
     }
