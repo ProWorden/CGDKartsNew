@@ -10,7 +10,7 @@ public class player1 : MonoBehaviour
     public float brake_speed;
     public bool is_moving = false;
     public bool is_braking = false;
-
+    public bool crashed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,5 +48,15 @@ public class player1 : MonoBehaviour
         {
             is_moving = false;
         }
+
+        if(crashed)
+        {
+            ContinueStraight();
+        }
+    }
+
+    void ContinueStraight()
+    {
+        transform.position -= transform.forward * current_speed *Time.deltaTime;
     }
 }
