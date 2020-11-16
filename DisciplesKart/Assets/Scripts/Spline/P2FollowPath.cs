@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class P2_FollowPath : MonoBehaviour
+public class P2FollowPath : MonoBehaviour
 {
     public enum MovementType
     {
