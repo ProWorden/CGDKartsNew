@@ -26,7 +26,7 @@ public class MovementPath : MonoBehaviour
     public bool altLeft = false;
     public bool altRight = false;
 
-    public void OnDrawGizmos()
+    /*public void OnDrawGizmos()
     {
         if (PathSequence == null || PathSequence.Length < 2)
         {
@@ -42,7 +42,7 @@ public class MovementPath : MonoBehaviour
         {
             Gizmos.DrawLine(PathSequence[0].position, PathSequence[PathSequence.Length - 1].position);
         }
-    }
+    }*/
 
     public IEnumerator<Transform> GetNextPathPoint()
     {
