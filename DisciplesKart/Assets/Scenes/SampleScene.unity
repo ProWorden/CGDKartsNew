@@ -2512,6 +2512,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -3033,6 +3043,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -4167,6 +4187,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &97910994
 GameObject:
   m_ObjectHideFlags: 0
@@ -5761,6 +5783,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -5779,7 +5811,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.1560001
+      value: 2.093
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -5835,6 +5867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -6631,6 +6668,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &152644664
 GameObject:
   m_ObjectHideFlags: 0
@@ -7661,6 +7700,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -11123,6 +11172,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &277174694
 GameObject:
   m_ObjectHideFlags: 0
@@ -15132,6 +15183,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &396007569
 GameObject:
   m_ObjectHideFlags: 0
@@ -15417,6 +15470,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -15485,12 +15548,17 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15
+      value: 0.120109506
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -17584,6 +17652,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &452249455
 GameObject:
   m_ObjectHideFlags: 0
@@ -18299,6 +18369,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &464062355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19058,6 +19130,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &486542757
 GameObject:
   m_ObjectHideFlags: 0
@@ -21726,6 +21800,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &556412348
 GameObject:
   m_ObjectHideFlags: 0
@@ -21921,6 +21997,16 @@ PrefabInstance:
       propertyPath: playerTwo
       value: 
       objectReference: {fileID: 819786092}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -22612,6 +22698,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &580223850
 GameObject:
   m_ObjectHideFlags: 0
@@ -23254,6 +23342,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &598086543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29882,6 +29972,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCornerSpeed: 1
+  p1Spline: {fileID: 0}
+  p2Spline: {fileID: 0}
+  switchableCorner: 0
   AIPlayer1: {fileID: 0}
   P1: {fileID: 0}
   playerOne: {fileID: 0}
@@ -31742,6 +31835,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &774703920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32659,6 +32754,8 @@ MonoBehaviour:
   - {fileID: 1662744301}
   - {fileID: 1010902549}
   - {fileID: 578558484}
+  altLeft: 0
+  altRight: 0
 --- !u!1 &797766976
 GameObject:
   m_ObjectHideFlags: 0
@@ -33013,6 +33110,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -34202,6 +34309,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &826908687
 GameObject:
   m_ObjectHideFlags: 0
@@ -34637,6 +34746,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -38242,7 +38361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current_speed: 0
   max_speed: 20
-  acceleration: 2
+  acceleration: 5
   brake_speed: 10
   is_moving: 0
   is_braking: 0
@@ -40089,6 +40208,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &998932219
 GameObject:
   m_ObjectHideFlags: 0
@@ -40492,6 +40613,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1011419645
 GameObject:
   m_ObjectHideFlags: 0
@@ -40613,6 +40736,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -40775,6 +40908,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &1015194671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42457,6 +42592,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1049393182
 GameObject:
   m_ObjectHideFlags: 0
@@ -43054,6 +43191,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCornerSpeed: 10
+  p1Spline: {fileID: 797161640}
+  p2Spline: {fileID: 1202701042}
+  switchableCorner: 0
   AIPlayer1: {fileID: 943308933}
   P1: {fileID: 943308935}
   playerOne: {fileID: 943308932}
@@ -44168,6 +44308,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -44605,6 +44755,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &1096733586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44710,6 +44862,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -44718,7 +44885,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2559999
+      value: -1.28
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -44773,7 +44940,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.134992
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -44784,6 +44951,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -45437,6 +45609,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1116363400
 GameObject:
   m_ObjectHideFlags: 0
@@ -47203,6 +47377,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &1163445443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47540,6 +47716,16 @@ PrefabInstance:
       propertyPath: playerTwo
       value: 
       objectReference: {fileID: 819786092}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -49078,6 +49264,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1197298894
 GameObject:
   m_ObjectHideFlags: 0
@@ -49540,6 +49728,8 @@ MonoBehaviour:
   - {fileID: 1662744301}
   - {fileID: 1010902549}
   - {fileID: 578558484}
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &1203531577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50003,6 +50193,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1215059086
 GameObject:
   m_ObjectHideFlags: 0
@@ -50606,6 +50798,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1231461016
 GameObject:
   m_ObjectHideFlags: 0
@@ -51658,6 +51852,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -52092,6 +52296,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -55000,6 +55214,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1333220571
 GameObject:
   m_ObjectHideFlags: 0
@@ -57973,6 +58189,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -59612,6 +59838,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -61811,6 +62047,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1480345365
 GameObject:
   m_ObjectHideFlags: 0
@@ -62527,6 +62765,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1491830098
 GameObject:
   m_ObjectHideFlags: 0
@@ -63432,6 +63672,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &1515331219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68181,6 +68423,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &1622034525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69078,6 +69322,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -70110,6 +70364,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1664949005
 GameObject:
   m_ObjectHideFlags: 0
@@ -70914,6 +71170,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -71084,6 +71350,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1693905751
 GameObject:
   m_ObjectHideFlags: 0
@@ -72696,6 +72964,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &1737712225
 GameObject:
   m_ObjectHideFlags: 0
@@ -78841,6 +79111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCornerSpeed: 15
+  p1Spline: {fileID: 797161640}
+  p2Spline: {fileID: 1202701042}
+  switchableCorner: 0
   AIPlayer1: {fileID: 943308933}
   P1: {fileID: 943308935}
   playerOne: {fileID: 943308932}
@@ -79265,6 +79538,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -81155,6 +81438,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040935969}
     m_Modifications:
+    - target: {fileID: 2229833331496643816, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: AIPlayer1
@@ -81190,6 +81478,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -81198,7 +81501,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7315004
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -81253,7 +81556,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -81264,6 +81567,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -82353,6 +82661,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -82371,7 +82694,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.8555
+      value: 2.938
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -82421,12 +82744,17 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -82781,6 +83109,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &2003200787
 GameObject:
   m_ObjectHideFlags: 0
@@ -84972,6 +85302,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1001 &2049732667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85129,6 +85461,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040935969}
     m_Modifications:
+    - target: {fileID: 2229833331496643816, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: AIPlayer1
@@ -85164,6 +85501,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -85182,7 +85534,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.8740003
+      value: 2.941
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -85232,12 +85584,17 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -85555,6 +85912,8 @@ MonoBehaviour:
   - {fileID: 1662744301}
   - {fileID: 1010902549}
   - {fileID: 578558484}
+  altLeft: 0
+  altRight: 0
 --- !u!1 &2062825038
 GameObject:
   m_ObjectHideFlags: 0
@@ -86272,6 +86631,8 @@ MonoBehaviour:
   - {fileID: 1662744301}
   - {fileID: 1010902549}
   - {fileID: 578558484}
+  altLeft: 0
+  altRight: 0
 --- !u!1 &2076758896
 GameObject:
   m_ObjectHideFlags: 0
@@ -87022,6 +87383,8 @@ MonoBehaviour:
   LeftPaths: []
   RightPaths: []
   SharedPaths: []
+  altLeft: 0
+  altRight: 0
 --- !u!1 &2098461123
 GameObject:
   m_ObjectHideFlags: 0
@@ -89368,6 +89731,16 @@ PrefabInstance:
       propertyPath: playerTwo
       value: 
       objectReference: {fileID: 819786092}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
