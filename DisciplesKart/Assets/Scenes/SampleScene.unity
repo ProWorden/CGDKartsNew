@@ -49013,7 +49013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current_speed: 0
   max_speed: 20
-  acceleration: 5
+  acceleration: 2
   brake_speed: 10
   is_moving: 0
   is_braking: 0
