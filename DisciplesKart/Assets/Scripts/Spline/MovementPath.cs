@@ -23,8 +23,8 @@ public class MovementPath : MonoBehaviour
     private int LEFT = 2;
     private int RIGHT = 2;
 
-    private bool altLeft = false;
-    private bool altRight = false;
+    public bool altLeft = false;
+    public bool altRight = false;
 
     public void OnDrawGizmos()
     {
