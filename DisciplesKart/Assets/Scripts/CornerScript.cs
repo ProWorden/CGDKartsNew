@@ -5,38 +5,121 @@ using UnityEngine;
 public class CornerScript : MonoBehaviour
 {
     public float maxCornerSpeed = 0;
-    public player1 player1;
+    public AIFollowPath AIPlayer1;
+    public player1 P1;
     private bool player1follow = true;
-    public bool bollision = false;
+    private float timer1 = 0;
+    private Vector3 RespawnPoint1 = new Vector3(0,0,0);
+    private bool setRespawn1 = false;
+    public GameObject playerOne;
+
+    public P2FollowPath AIPlayer2;
+    public player2 P2;
+    private bool player2follow = true;
+    private float timer2 = 0;
+    private Vector3 RespawnPoint2 = new Vector3(0, 0, 0);
+    private bool setRespawn2 = false;
+    public GameObject playerTwo;
 
 
-   private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
        
      if (other.tag == "Kart1")
         {
-            bollision = true;
-            if (player1.current_speed >= maxCornerSpeed)
+            if (P1.current_speed >= maxCornerSpeed && player1follow && !setRespawn1)
             {
                 player1follow = false;
             }
         }
+
+        if (other.tag == "Kart2")
+        {
+            if (P2.current_speed >= maxCornerSpeed && player2follow && !setRespawn2)
+            {
+                player2follow = false;
+            }
+        }
+
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         FallenOff();
+        Respawn();
     }
 
     void FallenOff()
     {
         if(player1follow == false)
         {
-            player1.enabled = false;
+            RespawnPoint1 =  playerOne.transform.position;
+            AIPlayer1.enabled = false;
 
-            //when movement is in other cript to this one the velocity should be kept but it will fly in a straight line
+            //when movement in other script to this one the velocity should be kept but it will fly in a straight line
+            P1.crashed = true;
 
-            //then call respawn after a timer
+            //then call respawn 
+            setRespawn1 = true;
+            player1follow = true;
+            
         }
+
+
+        if (player2follow == false)
+        {
+            RespawnPoint2 = playerTwo.transform.position;
+            AIPlayer2.enabled = false;
+
+            //when movement in other script to this one the velocity should be kept but it will fly in a straight line
+            P2.crashed = true;
+
+            //then call respawn 
+            setRespawn2 = true;
+            player2follow = true;
+
+        }
+    }
+
+    void Respawn()
+    {
+        if(setRespawn1)
+        {
+            timer1 += Time.deltaTime;
+
+            if (timer1 >= 1)
+            {
+                P1.current_speed = 0;
+                P1.crashed = false;
+
+                //teleport player to start of corner
+                playerOne.transform.position = RespawnPoint1;
+                AIPlayer1.enabled = true;
+
+                //reset timer
+                timer1 = 0;
+                setRespawn1 = false;
+            }
+        }
+
+        if (setRespawn2)
+        {
+            timer2 += Time.deltaTime;
+
+            if (timer2 >= 1)
+            {
+                P2.current_speed = 0;
+                P2.crashed = false;
+
+                //teleport player to start of corner
+                playerTwo.transform.position = RespawnPoint2;
+                AIPlayer2.enabled = true;
+
+                //reset timer
+                timer2 = 0;
+                setRespawn2 = false;
+            }
+        }
+
     }
 }
