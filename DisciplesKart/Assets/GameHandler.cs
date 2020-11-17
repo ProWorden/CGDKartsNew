@@ -13,7 +13,7 @@ public class GameHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RightCoinText.text = "Golden Nuggets : " + coinright;
-        LeftCoinText.text = "Golden Nuggets : " + coinleft;
+        RightCoinText.text = " " + coinright;
+        LeftCoinText.text = " " + coinleft;
     }
 }
