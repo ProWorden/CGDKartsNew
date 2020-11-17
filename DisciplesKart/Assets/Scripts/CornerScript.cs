@@ -5,6 +5,14 @@ using UnityEngine;
 public class CornerScript : MonoBehaviour
 {
     public float maxCornerSpeed = 0;
+
+    public MovementPath p1Spline;
+    public MovementPath p2Spline;
+
+    public bool switchableCorner = false;
+    private bool onStraightP1 = true;
+    private bool onStraightP2 = true;
+
     public AIFollowPath AIPlayer1;
     public player1 P1;
     private bool player1follow = true;
@@ -45,13 +53,17 @@ public class CornerScript : MonoBehaviour
 
     private void LateUpdate()
     {
+       
+
         FallenOff();
         Respawn();
     }
 
     void FallenOff()
     {
-        if(player1follow == false)
+        TestForTurn();
+
+        if (player1follow == false && !onStraightP1)
         {
             RespawnPoint1 =  playerOne.transform.position;
             AIPlayer1.enabled = false;
@@ -121,5 +133,38 @@ public class CornerScript : MonoBehaviour
             }
         }
 
+    }
+
+    void TestForTurn()
+    {
+        if(switchableCorner)
+        {
+            if (p1Spline.altRight)
+            {
+                onStraightP1 = false;
+            }
+            else
+            {
+                onStraightP1 = true;
+            }
+
+            if (p2Spline.altLeft)
+            {
+                onStraightP2 = true;
+            }
+            else
+            {
+                onStraightP2 = false;
+            }
+        }
+        else
+        {
+            onStraightP1 = false;
+            onStraightP2 = false;
+        }
+   
+
+
+        
     }
 }

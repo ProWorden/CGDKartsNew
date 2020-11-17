@@ -2512,6 +2512,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -3033,6 +3043,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -5763,6 +5783,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -5781,7 +5811,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.1560001
+      value: 2.093
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -5837,6 +5867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -7665,6 +7700,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -15536,6 +15581,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -15604,12 +15659,17 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15
+      value: 0.120109506
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -22085,6 +22145,16 @@ PrefabInstance:
       propertyPath: playerTwo
       value: 
       objectReference: {fileID: 819786092}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -30050,6 +30120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCornerSpeed: 1
+  p1Spline: {fileID: 0}
+  p2Spline: {fileID: 0}
+  switchableCorner: 0
   AIPlayer1: {fileID: 0}
   P1: {fileID: 0}
   playerOne: {fileID: 0}
@@ -33185,6 +33258,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -34811,6 +34894,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -38416,7 +38509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current_speed: 0
   max_speed: 20
-  acceleration: 2
+  acceleration: 5
   brake_speed: 10
   is_moving: 0
   is_braking: 0
@@ -40791,6 +40884,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -43236,6 +43339,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCornerSpeed: 10
+  p1Spline: {fileID: 797161640}
+  p2Spline: {fileID: 1202701042}
+  switchableCorner: 0
   AIPlayer1: {fileID: 943308933}
   P1: {fileID: 943308935}
   playerOne: {fileID: 943308932}
@@ -44350,6 +44456,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -44894,6 +45010,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -44902,7 +45033,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2559999
+      value: -1.28
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -44957,7 +45088,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.134992
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -44968,6 +45099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -47728,6 +47864,16 @@ PrefabInstance:
       propertyPath: playerTwo
       value: 
       objectReference: {fileID: 819786092}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -52002,6 +52148,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -52436,6 +52592,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -58408,6 +58574,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -60047,6 +60223,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -69599,6 +69785,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -71437,6 +71633,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -79370,6 +79576,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCornerSpeed: 15
+  p1Spline: {fileID: 797161640}
+  p2Spline: {fileID: 1202701042}
+  switchableCorner: 0
   AIPlayer1: {fileID: 943308933}
   P1: {fileID: 943308935}
   playerOne: {fileID: 943308932}
@@ -79794,6 +80003,16 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -81773,6 +81992,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040935969}
     m_Modifications:
+    - target: {fileID: 2229833331496643816, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: AIPlayer1
@@ -81808,6 +82032,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -81816,7 +82055,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7315004
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -81871,7 +82110,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -81882,6 +82121,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -82971,6 +83215,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -82989,7 +83248,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.8555
+      value: 2.938
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -83039,12 +83298,17 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -85751,6 +86015,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040935969}
     m_Modifications:
+    - target: {fileID: 2229833331496643816, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: AIPlayer1
@@ -85786,6 +86055,21 @@ PrefabInstance:
       propertyPath: maxCornerSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: switchableCorner
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
@@ -85804,7 +86088,7 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.8740003
+      value: 2.941
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
@@ -85854,12 +86138,17 @@ PrefabInstance:
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 2229833331496643861, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229833331496643863, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64d8f1d8aad309d4b88ff5788f3108cc, type: 3}
@@ -89996,6 +90285,16 @@ PrefabInstance:
       propertyPath: playerTwo
       value: 
       objectReference: {fileID: 819786092}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p1Spline
+      value: 
+      objectReference: {fileID: 797161640}
+    - target: {fileID: 2229833331496643817, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
+        type: 3}
+      propertyPath: p2Spline
+      value: 
+      objectReference: {fileID: 1202701042}
     - target: {fileID: 2229833331496643818, guid: 64d8f1d8aad309d4b88ff5788f3108cc,
         type: 3}
       propertyPath: m_Name
