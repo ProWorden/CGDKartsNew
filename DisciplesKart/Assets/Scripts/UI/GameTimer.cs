@@ -24,11 +24,11 @@ public class GameTimer : MonoBehaviour
         current_time -= 1 * Time.deltaTime;
         txt.text = current_time.ToString("0");
 
-      /*  if (current_time <= 0)
+        if (current_time <= 0)
         {
             SceneManager.LoadScene("GameOver");
         }
-        */
+
     }
 }
 
