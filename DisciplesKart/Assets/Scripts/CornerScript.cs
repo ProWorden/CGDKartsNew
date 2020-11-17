@@ -78,7 +78,7 @@ public class CornerScript : MonoBehaviour
         }
 
 
-        if (player2follow == false)
+        if (player2follow == false &&!onStraightP2)
         {
             RespawnPoint2 = playerTwo.transform.position;
             AIPlayer2.enabled = false;
