@@ -9,7 +9,7 @@ public class GameTimer : MonoBehaviour
 {
 
     public float current_time = 0;
-    float starting_time = 20;
+    public float starting_time = 30;
     public Text txt;
 
     // Start is called before the first frame update
