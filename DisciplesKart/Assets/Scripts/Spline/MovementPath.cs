@@ -400,14 +400,14 @@ public class MovementPath : MonoBehaviour
     {
         if (LeftKart)
         {
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            if (Input.GetKeyDown(KeyCode.A))
             {
                 altLeft = !altLeft;
             }
         }
         if (RightKart)
         {
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 altRight = !altRight;
             }

@@ -19,11 +19,11 @@ public class GameHandler : MonoBehaviour
 
         if (coinleft == 80)
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
         else if (coinright == 80)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
 
     }
